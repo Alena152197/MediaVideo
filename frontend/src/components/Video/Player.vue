@@ -1,0 +1,2 @@
+<!-- видео плеер -->
+<template></template>

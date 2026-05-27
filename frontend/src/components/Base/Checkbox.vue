@@ -1,0 +1,2 @@
+<!-- чекбокс -->
+<template></template>

@@ -1,7 +1,7 @@
 <!-- Логотип приложения -->
 <template>
   <RouterLink
-    to="/"
+    to="/channel/mediavideo"
     class="group mb-8 flex items-end text-center text-2xl font-medium uppercase transition-all duration-300"
     title="MediaVideo"
   >

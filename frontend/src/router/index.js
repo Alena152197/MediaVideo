@@ -7,6 +7,8 @@ import HistoryView from '@/views/user/history.vue'
 import PlaylistsView from '@/views/user/playlists.vue'
 import VideosView from '@/views/user/videos.vue'
 import ChannelProfileView from '@/views/channel/profile.vue'
+import StudioLayout from '@/layouts/StudioLayout.vue'
+import StudioView from '@/views/studio/index.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -42,6 +44,16 @@ const router = createRouter({
     {
       path: '/channel/mediavideo',
       component: ChannelProfileView,
+    },
+    {
+      path: '/studio',
+      component: StudioLayout,
+      children: [
+        {
+          path: '',
+          component: StudioView,
+        },
+      ],
     },
   ],
 })

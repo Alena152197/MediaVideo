@@ -64,6 +64,7 @@ const mainLinks = reactive([
 ])
 
 const libraryLinks = reactive([
+  { to: '/studio', title: 'Студия', icon: 'RiDashboard3Line' },
   { to: '/user/history', title: 'История', icon: 'RiHistoryLine' },
   { to: '/user/playlists', title: 'Плейлисты', icon: 'RiPlayList2Line' },
   { to: '/user/videos', title: 'Ваши видео', icon: 'RiYoutubeLine' },

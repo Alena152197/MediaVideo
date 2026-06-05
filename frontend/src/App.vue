@@ -1,5 +1,6 @@
 <template>
-  <div class="grid h-screen w-full lg:grid-cols-12">
+  <RouterView v-if="isStudioRoute" />
+  <div v-else class="grid h-screen w-full lg:grid-cols-12">
     <section class="fixed bottom-0 left-0 z-100 w-full lg:relative lg:col-span-3 lg:h-screen xl:col-span-2">
       <AppNavbarMobile class="block lg:hidden" />
       <AppNavbarDesktop class="hidden lg:block" />
@@ -26,7 +27,11 @@ import AppNavbarMobile from '@/components/App/NavbarMobile.vue'
 import AppHeaderDesktop from '@/components/App/HeaderDesktop.vue'
 import AppHeaderMobile from '@/components/App/HeaderMobile.vue'
 import AuthModal from '@/components/Auth/Modal.vue'
-import { ref } from 'vue'
+import { computed, ref } from 'vue'
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+const isStudioRoute = computed(() => route.path.startsWith('/studio'))
 
 // состояние модального окна авторизации
 const visibleAuthModal = ref(false)

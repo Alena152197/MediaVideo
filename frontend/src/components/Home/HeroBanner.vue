@@ -65,6 +65,6 @@ const banner = {
   title: 'Тайны океаны',
   description: 'Документальный фильм о том, как океан меняет границы реальности.',
   image: 'https://img.ixbt.site/live/images/original/08/11/28/2025/05/25/51ee4052a2.png',
-  watchLink: '/channel/mediavideo',
+  watchLink: '/video/altai',
 }
 </script>

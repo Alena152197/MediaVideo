@@ -9,14 +9,14 @@
           10:30
         </p>
       </div>
-      <RouterLink to="/"
+      <RouterLink to="/video/altai"
         class="absolute inset-0 flex items-center justify-center bg-black/50 opacity-0 transition-opacity group-hover:opacity-100">
         <RiPlayLargeFill
           class="text-primary hover:text-primary-hover size-10 scale-0 transition-all duration-300 group-hover:scale-125" />
       </RouterLink>
     </header>
     <footer class="flex flex-col gap-2 p-2">
-      <RouterLink to="/" class="group transition-colors hover:text-white">
+      <RouterLink to="/video/altai" class="group transition-colors hover:text-white">
         <h4 class="group-hover:underline">Океан: всё о путешествии в подводном мире</h4>
       </RouterLink>
       <div class="flex items-center text-white/50">

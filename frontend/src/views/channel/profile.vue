@@ -114,12 +114,12 @@
           <p class="text-text-secondary line-clamp-3 text-sm leading-relaxed">
             {{ featured.description }}
           </p>
-          <button
-            type="button"
-            class="from-primary to-primary-hover mt-1 w-max cursor-pointer rounded-full bg-linear-to-r px-6 py-2 text-sm font-medium transition-opacity hover:opacity-90"
+          <RouterLink
+            to="/video/altai"
+            class="from-primary to-primary-hover mt-1 flex w-max items-center rounded-full bg-linear-to-r px-6 py-2 text-sm font-medium transition-opacity hover:opacity-90"
           >
             Смотреть
-          </button>
+          </RouterLink>
         </div>
       </section>
 

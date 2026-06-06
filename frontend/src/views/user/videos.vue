@@ -1,4 +1,4 @@
-<!-- ваши видео / библиотека -->
+<!-- моё видео / библиотека -->
 <template>
   <div class="flex flex-col gap-6 text-white">
     <UserProfileHeader :user="currentUser" />

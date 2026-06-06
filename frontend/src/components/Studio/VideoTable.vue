@@ -94,7 +94,7 @@ const videos = [
     access: 'Открытый',
     views: '23 450',
     comments: '128',
-    date: '2 июн. 2024',
+    date: '2 июн. 2026',
   },
   {
     id: 2,
@@ -105,7 +105,7 @@ const videos = [
     access: 'Открытый',
     views: '18 920',
     comments: '94',
-    date: '28 мая 2024',
+    date: '28 мая 2025',
   },
   {
     id: 3,

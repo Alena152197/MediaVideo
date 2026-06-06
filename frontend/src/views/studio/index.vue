@@ -15,7 +15,7 @@
           type="button"
           class="text-text-secondary flex cursor-pointer items-center gap-2 rounded-lg border border-border bg-[#101216] px-3 py-2 text-sm hover:text-white"
         >
-          27 мая — 2 июня 2024
+          27 мая — 2 июня 2026
           <RiArrowDownSLine class="size-4" />
         </button>
         <button type="button" class="text-text-secondary relative cursor-pointer hover:text-white">
@@ -64,7 +64,7 @@ import StudioEffectivenessChart from '@/components/Studio/EffectivenessChart.vue
 import StudioVideoTable from '@/components/Studio/VideoTable.vue'
 
 const stats = [
-  { title: 'Просмотры', value: '128 450', change: '+18,6%', data: [8, 12, 10, 18, 15, 22, 28] },
+  { title: 'Просмотры', value: '191 550', change: '+18,6%', data: [8, 12, 10, 18, 15, 22, 28] },
   { title: 'Время просмотра', value: '4 280 ч', change: '+12,3%', data: [6, 10, 14, 12, 18, 16, 24] },
   { title: 'Подписчики', value: '+342', change: '+8,1%', data: [4, 6, 8, 7, 10, 12, 14] },
   { title: 'Расчётный доход', value: '24 680 ₽', change: '+22,4%', data: [5, 9, 11, 16, 14, 20, 26] },
